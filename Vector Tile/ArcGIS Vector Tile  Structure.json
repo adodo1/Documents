@@ -1,21 +1,21 @@
 {
     "currentVersion": 10.4,
-    "name": "world",
+    "name": "Streets",
     "capabilities": "TilesOnly",
     
 	"type":"indexedVector",
 	
 	"tileMap": "/tilemap",
-	"defaultStyles":"/resources/styles",
-	"tiles": ["/tile/{z}/{y}/{x}.pbf"],
+	"defaultStyles":"/styles",
+	"tiles": ["/tile/{z}/{x}/{y}.pbf"],
 	
     "exportTilesAllowed": false,
 	
     "initialExtent": {
-        "xmin": -20037507.067161843,
-        "ymin": -20037507.067161843,
+        "xmin": 12385929.901839022,
+        "ymin": 9318937.485669367,
         "xmax": 20037507.067161843,
-        "ymax": 20037507.067161843,
+        "ymax": 30240971.958386205,
         "spatialReference": {
             "cs": "pcs",
             "wkid": 102100
@@ -23,17 +23,17 @@
     },
     "fullExtent": {
         "xmin": -20037507.067161843,
-        "ymin": -20037507.067161843,
+        "ymin": -30240971.95838617,
         "xmax": 20037507.067161843,
-        "ymax": 20037507.067161843,
+        "ymax": 30240971.458386205,
         "spatialReference": {
             "cs": "pcs",
             "wkid": 102100
         }
     },
 	
-    "minScale": 591657527.591555,
-    "maxScale": 70.5310735,
+    "minScale": 295828763.795777,
+    "maxScale": 1128.497176,
 	
     "tileInfo": {
         "rows": 512,
@@ -143,26 +143,6 @@
                 "level": 18,
                 "resolution": 0.29858214164761665,
                 "scale": 1128.497176
-            },
-            {
-                "level": 19,
-                "resolution": 0.149291070823808325,
-                "scale": 564.248588
-            },
-            {
-                "level": 20,
-                "resolution": 0.0746455354119041625,
-                "scale": 282.124294
-            },
-            {
-                "level": 21,
-                "resolution": 0.03732276770595208125,
-                "scale": 141.062147
-            },
-            {
-                "level": 22,
-                "resolution": 0.018661383852976040625,
-                "scale": 70.5310735
             }
         ]
     }

@@ -1,0 +1,86 @@
+示例:
+一个GeoJSON格式的要素如下：
+
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8247861.1000836585,
+                    4970241.327215323
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "hello": "world",
+                "h": "world",
+                "count": 1.23
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8247861.1000836585,
+                    4970241.327215323
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "hello": "again",
+                "count": 2
+            }
+        }
+    ]
+}
+
+会被结构化为：
+
+layers {
+  version: 2
+  name: "points"
+  features: {
+    id: 1
+    tags: 0
+    tags: 0
+    tags: 1
+    tags: 0
+    tags: 2
+    tags: 1
+    type: Point
+    geometry: 9
+    geometry: 2410
+    geometry: 3080
+  }
+  features {
+    id: 2
+    tags: 0
+    tags: 2
+    tags: 2
+    tags: 3
+    type: Point
+    geometry: 9
+    geometry: 2410
+    geometry: 3080
+  }
+  keys: "hello"
+  keys: "h"
+  keys: "count"
+  values: {
+    string_value: "world"
+  }
+  values: {
+    double_value: 1.23
+  }
+  values: {
+    string_value: "again"
+  }
+  values: {
+    int_value: 2
+  }
+  extent: 4096
+}
+
+*注意几何要素的实际坐标取决于坐标系和瓦片的范围。

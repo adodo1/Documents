@@ -4,10 +4,10 @@
 This **Sample**   shows the elevation data of a road in the form of a line [chart][1].
 
 - **Elevation SDK** - support query elevation data by point, points, line and polygon based on [SRTM][2] and Ned13 elevation source data.
-- - **point** - The buffer to get a point to reduce the elevation error of only one point.
-- - **points**- Each point is the same with the point.
-- - **line** - There are two ways to get the elevation data of the line. One is to get the points on the line by setting the interval distance, and the other is to take the points by setting the number of points to be fetched, and then finally to the query of the elevation data of the point.
-- - **polygon** - By setting the interval distance clip the polygon to the grids, and get all the center of the grids where the polygon is located. And then determine whether these center points are on the surface or inside the surface(use improved arc-length method).
+ - **point** - The buffer to get a point to reduce the elevation error of only one point.
+ - **points**- Each point is the same with the point.
+ - **line** - There are two ways to get the elevation data of the line. One is to get the points on the line by setting the interval distance, and the other is to take the points by setting the number of points to be fetched, and then finally to the query of the elevation data of the point.
+ - **polygon** - By setting the interval distance clip the polygon to the grids, and get all the center of the grids where the polygon is located. And then determine whether these center points are on the surface or inside the surface(use improved arc-length method).
 
 ![Alt text](./Capture.PNG)
 

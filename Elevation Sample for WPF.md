@@ -1,9 +1,6 @@
 
 # Elevation Sample for WPF
-
-----------
-
-## Description
+### Description
 This **Sample**   shows the elevation data of a road in the form of a line [chart][1].
 
 - **Elevation SDK** - support query elevation data by point, points, line and polygon based on [SRTM][2] and Ned13 elevation source data.
@@ -14,14 +11,14 @@ This **Sample**   shows the elevation data of a road in the form of a line [char
 
 ![Alt text](./Capture.PNG)
 
-## Requirements
+### Requirements
 This sample makes use of the following NuGet Packages
 
 - [MapSuite 10.0.0][4]
 - [AWSSDK.Core][5]
 - [AWSSDK.S3][6]
 
-## About the Code
+### About the Code
 >**Get elevation by points**
 ```
 private Collection<Feature> GetElevationByPoints(Collection<PointShape> points)
@@ -42,16 +39,16 @@ foreach (var feature in features)
 }
 ```
 
-## Getting Help
+### Getting Help
 - [Map Suite Desktop for WPF Wiki Resources][7]
 - [Map Suite Desktop for WPF Product Description][8]
 - [ThinkGeo Community Site][9]
 - [ThinkGeo Web Site][10]
 
-## About Map Suite
+### About Map Suite
 Map Suite is a set of powerful development components and services for the .Net Framework.
 
-## About ThinkGeo
+### About ThinkGeo
 ThinkGeo is a GIS (Geographic Information Systems) company founded in 2004 and located in Frisco, TX. Our clients are in more than 40 industries including agriculture, energy, transportation, government, engineering, software development, and defense.
 
 

@@ -8,8 +8,8 @@ This **Sample**   shows the elevation data of a road in the form of a line [char
  - **For points**- Each point is the same with the point.
  - **For line** - There are two ways to get the elevation data of the line. One is to get the points on the line by setting the interval distance, and the other is to take the points by setting the number of points to be fetched, and then finally to the query of the elevation data of the point.
  - **For polygon** - By setting the interval distance clip the polygon to the grids, and get all the center of the grids where the polygon is located. And then determine whether these center points are on the surface or inside the surface(use improved arc-length method).
+![Alt text](./Screenshot.PNG)
 
-![Alt text](./Capture.PNG)
 
 ### Requirements
 This sample makes use of the following NuGet Packages

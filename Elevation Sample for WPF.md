@@ -3,25 +3,25 @@
 
 ----------
 
-#### Description
+## Description
 This **Sample**   shows the elevation data of a road in the form of a line [chart][1].
 
 - **Elevation SDK** - support query elevation data by point, points, line and polygon based on [SRTM][2] and Ned13 elevation source data.
- - **point** - The buffer to get a point to reduce the elevation error of only one point.
- - **points**- Each point is the same with the point.
- - **line** - There are two ways to get the elevation data of the line. One is to get the points on the line by setting the interval distance, and the other is to take the points by setting the number of points to be fetched, and then finally to the query of the elevation data of the point.
- - **polygon** - By setting the interval distance clip the polygon to the grids, and get all the center of the grids where the polygon is located. And then determine whether these center points are on the surface or inside the surface(use improved arc-length method).
+ > - **point** - The buffer to get a point to reduce the elevation error of only one point.
+ > - **points**- Each point is the same with the point.
+ > - **line** - There are two ways to get the elevation data of the line. One is to get the points on the line by setting the interval distance, and the other is to take the points by setting the number of points to be fetched, and then finally to the query of the elevation data of the point.
+ > - **polygon** - By setting the interval distance clip the polygon to the grids, and get all the center of the grids where the polygon is located. And then determine whether these center points are on the surface or inside the surface(use improved arc-length method).
 
 ![Alt text](./Capture.PNG)
 
-#### Requirements
+## Requirements
 This sample makes use of the following NuGet Packages
 
 - [MapSuite 10.0.0][4]
 - [AWSSDK.Core][5]
 - [AWSSDK.S3][6]
 
-#### About the Code
+## About the Code
 >**Get elevation by points**
 ```
 private Collection<Feature> GetElevationByPoints(Collection<PointShape> points)
@@ -42,16 +42,16 @@ foreach (var feature in features)
 }
 ```
 
-#### Getting Help
+## Getting Help
 - [Map Suite Desktop for WPF Wiki Resources][7]
 - [Map Suite Desktop for WPF Product Description][8]
 - [ThinkGeo Community Site][9]
 - [ThinkGeo Web Site][10]
 
-#### About Map Suite
+## About Map Suite
 Map Suite is a set of powerful development components and services for the .Net Framework.
 
-#### About ThinkGeo
+## About ThinkGeo
 ThinkGeo is a GIS (Geographic Information Systems) company founded in 2004 and located in Frisco, TX. Our clients are in more than 40 industries including agriculture, energy, transportation, government, engineering, software development, and defense.
 
 
